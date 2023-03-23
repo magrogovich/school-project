@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="page">
+  <main class="main page__main">
+    <form class="card-form" action="app.php" method="POST">
+      <div class="card-form__main-content">
+        <h2 class="card-form__title">Product Info</h2>
+        <p class="card-form__desc">Please provide your product information.</p>
+        <label class="card-form__label" for="fullname">Name</label>
+        <input class="card-form__input" id="fullname" name="fullname" placeholder="Product name" type="text"/>
+        <label class="card-form__label" for="email">Weight</label>
+        <input class="card-form__input" id="email" name="weight" placeholder="Weight" type="text"/>
+        <label class="card-form__label" for="phone">Exp dater</label>
+        <input class="card-form__input" id="phone" name="date" placeholder="" type="date"/>
+        <label class="card-form__label" for="phone">Quantity</label>
+        <input class="card-form__input" id="phone" name="quantity" placeholder="Quantity" type="text"/>
+      </div>
+      <div class="card-form__footer">
+        <button class="primary-btn primary-btn_hidden primary-btn_no-bg">Go Back</button>
+        <button class="primary-btn" type="submit">Next Step</button>
+      </div>
+    </form>
+  </main>
+</body>
+
+
+</html>
